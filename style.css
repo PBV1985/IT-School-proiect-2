@@ -1,0 +1,119 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+header {
+  height: 30vh;
+}
+
+.vremea{
+
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+
+
+.name {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.day, .temperature, .grade  {font-size: 25px;
+  font-weight: bolder;
+}
+
+.img {
+ max-width: 100px;
+}
+
+.realFeel, .descriere, .vant {
+  font-size: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 50px;
+}
+
+.weather-forecast-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .prognoza { border: #101d42;
+box-shadow: #2bb686;}
+.weather-forecast-box >* {
+  flex: 1;
+ 
+}
+
+.scroll-to-top {
+    font-size: 30px;
+}
+
+.scroll-to-top {
+    margin: 50px 0;
+}
+
+.scroll-to-top {
+    visibility: hidden;
+    color: white;
+    background: #141e4c;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
